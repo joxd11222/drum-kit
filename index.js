@@ -53,7 +53,7 @@ function makeSound(key) {
 }
 
 function buttonAnimation(currentKey) {
-    var actvBtn = document.querySelector("." + currentKey);
+    var actvBtn = document.querySelector(currentKey + " drum");
 
     actvBtn.classList.add("pressed");
 
